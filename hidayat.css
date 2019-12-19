@@ -46,10 +46,10 @@
 }
 .carousel-caption h5 {
 	margin-top: -2em !important;
-	font-size: 12em !important;
+	font-size: 900% !important;
 	color: #1E2832;
 	-webkit-text-stroke-width:3px !important;
-	-webkit-text-stroke-color:blue !important;
+	-webkit-text-stroke-color:red !important;
 	text-transform: capitalize;
 	font-family: 'Lilita One', cursive; overflow:hidden
 	
