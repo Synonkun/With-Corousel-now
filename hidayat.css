@@ -49,9 +49,10 @@
 	font-size: 12em !important;
 	color: #1E2832;
 	-webkit-text-stroke-width:3px !important;
-	-webkit-text-stroke-color:springgreen !important;
+	-webkit-text-stroke-color:blue !important;
 	text-transform: capitalize;
-	font-family: 'Lilita One', cursive;
+	font-family: 'Lilita One', cursive; overflow:hidden
+	
 }
 .carousel-caption p {
 	font-size: 2em !important;
