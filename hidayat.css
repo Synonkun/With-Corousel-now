@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 @media (min-width: 998px){
 body {
-	background-color: #14110e;
+	background-color: #14110e !important;
 	margin: 0;
 	padding: 0;
 }
@@ -263,7 +263,7 @@ body {
 		height: auto !important;
 		overflow: hidden;
 		border-bottom: 2px grey solid;
-		/*background-image:url(mission.jpg); */
+		background-image:url(mission.jpg);
 		background-size:cover;
 		background-attachment: fixed;
 	}
