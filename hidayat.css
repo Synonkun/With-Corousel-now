@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 @media (min-width: 998px){
-	.carousel-caption h5 {
-		margin-top: -80px !important;
-	}
-	.carousel-caption p {
+body {
+	background-color: #14110e;
+	margin: 0;
+	padding: 0;
+}
+.carousel-caption h5 {
+	margin-top: -80px !important;
+}
+.carousel-caption p {
 	font-size: 2em !important;
 	margin-top: 15px !important;
 	margin-bottom: 150px;
-	}
-	.navbar-nav .ml-auto br{
-		margin-top: 400px !important;
+}
+.navbar-nav .ml-auto br{
+	margin-top: 400px !important;
 	}	
 }
 .navbar{
