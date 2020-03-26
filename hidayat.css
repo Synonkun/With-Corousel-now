@@ -104,3 +104,259 @@
 .carousel-indicators {
 	border-radius: 50% !important;
 }
+.carousel {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.carousel-item {
+		overflow: hidden;
+		margin-top: -80px !important;
+	}
+	.header {
+		margin: 25px;
+	}
+	.desc {
+		margin: 25px;
+	}
+	.float-left-img {
+	width: 250px !important;
+	margin: 30px !important;
+	}
+	.float-right-img {
+	width: 250px !important;
+	margin: 30px !important;
+	}
+	.d-flex i {
+	position: relative;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	margin: 20px;
+	text-align: center;
+	font-size: 30px;
+	width: 70px !important;
+	height: 70px !important;
+	}
+	.navbar{
+		height: 100px;
+	        padding:0;
+	        margin:0;
+	        position: relative;
+	        z-index: 1;
+	}
+	.navbar-brand img{
+		width:70px;
+		height: 70px;
+		border:white solid;
+		border-width: 2px;
+		border-radius: 30%;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.navbar-brand img:hover{
+		border: springgreen solid;
+		border-width: 2px;
+		border-radius: 50%;
+		width: 70px;
+		height: 70px;
+		transition: 1s all;
+	}
+	.nav-link {
+		font-size: 25px;
+		font-family: 'Yanone Kaffeesatz';
+		text-align: center;
+		margin: 25px;
+		color: white !important; 
+		border-bottom: transparent;
+		position: relative;
+		z-index: 1;
+	}
+	.nav-link:hover {
+		overflow: hidden;
+		border-bottom: 3px springgreen solid;
+		margin-bottom: -5px !important;
+		transition: .5s all;
+	}
+
+	.carousel::after {
+		content: '';
+		width: 100%;
+		height: 102%;
+		position: absolute;
+		top: -2px;
+		bottom: -2px;
+		background-image: linear-gradient(to bottom, rgba(20,17,14,100)0%, rgba(0,0,0,0)30%, rgba(20,17,14,100)100%); 
+
+	}
+	.carousel-caption {
+		font-family: 'Yanone Kaffeesatz';
+	}
+	.carousel-caption h5 {
+		font-size: 650% !important;
+		color: #1E2832;
+		-webkit-text-stroke-width:3px !important;
+		-webkit-text-stroke-color:springgreen !important;
+		text-transform: capitalize;
+		font-family: 'Lilita One', cursive;
+		z-index:-1;
+		transform: translate(-50%, -50%, , 50%, 50%);
+		overflow: hidden;
+	}
+	.carousel-caption p {
+		font-size: 2em !important;
+		-webkit-text-stroke-color: #900C3F !important;
+		-webkit-text-stroke-width: 1px !important;
+		font-family: 'Odibee Sans', cursive;
+	}
+	.carousel-indicators ul {
+		list-style: square outside none !important; 
+	}
+	.content {
+		width:100%;
+		height: auto !important;
+		overflow: hidden;
+		border-bottom: 2px grey solid;
+	}
+	.content h1 {
+		font-size: 80px !important;
+		text-align: center;
+		color:white;
+		text-transform: capitalize;
+		font-family: 'Lilita One', cursive;
+		z-index:-1;
+		overflow: hidden;
+		margin-top:20px !important;
+	}
+	.content hr {
+		border-bottom: 1px solid #A2852D;
+		align:center;
+		width:10%;
+	}
+	.content p{
+		font-size: 26px !important;
+		color:white;
+		text-indent: 15%;
+	}
+
+	.float-left-img {
+		float: left;
+		border-radius: 25px;
+		overflow: hidden;
+		border: 2px white solid;
+		transform: rotate(14deg);
+		box-shadow: 12px 15px 4px black;
+	}
+	.float-right-img {
+		float: right;
+		border-radius: 25px;
+		overflow: hidden;
+		border: 2px white solid;
+		transform: rotate(-14deg);
+		box-shadow: 12px 15px 4px black;
+	}
+	.content-trio {
+		width:100%;
+		height: auto !important;
+		overflow: hidden;
+		border-bottom: 2px grey solid;
+		/*background-image:url(mission.jpg); */
+		background-size:cover;
+		background-attachment: fixed;
+	}
+	.content-trio hr {
+		border-bottom: 1px solid black;
+		align:center;
+		width:10%;
+	}
+	.content-trio h1 {
+		font-size: 80px !important;
+		text-align: center;
+		color:white;
+		text-transform: capitalize;
+		font-family: 'Lilita One', cursive;
+		z-index:-1;
+		overflow: hidden;
+		margin-top:20px !important;
+		-webkit-text-stroke-width:3px;
+		-webkit-text-stroke-color: black;
+	}
+	.content-trio h2 {
+		color:white !important;
+		font-size: 45px;
+		text-align:center;
+		font-family: 'Lilita One', cursive;
+		margin-top:10px;
+		margin-bottom:30px;
+		-webkit-text-stroke-width:2px;
+		-webkit-text-stroke-color: black;
+	}
+	.content-trio p {
+		color: white;
+		font-size:15px;
+		font-weight:bold;
+		text-align:center;
+		margin-top: 20px;
+	}
+	.content-trio li {
+		color:white !important;
+		font-weight:bold;
+	}
+	.fa-facebook-f {
+		color: white;
+		background-color: transparent;
+		border: 2px white solid;
+		border-radius: 50%;
+		transition: 1s all;
+	}
+	.fa-facebook-f:hover {
+		color: rgb(220,53,69);
+		background-color:transparent;
+		border: 2px rgb(220,53,69) solid;
+		border-radius: 50%;
+		box-shadow: 1px 1px 8px rgb(220,53,69);
+		transform: translateY(-10px) rotate(360deg);
+	}
+	.fa-twitter {
+		color: white;
+		background-color: transparent;
+		border: 2px white solid;
+		border-radius: 50%;
+		transition: 1s all;
+	}
+	.fa-twitter:hover {
+		color: rgb(220,53,69);
+		background-color:transparent;
+		border: 2px rgb(220,53,69) solid;
+		border-radius: 50%;
+		box-shadow: 1px 1px 8px rgb(220,53,69);
+		transform: translateY(-10px) rotate(360deg);
+	}
+	.fa-linkedin-in {
+		color: white;
+		background-color: transparent;
+		border: 2px white solid;
+		border-radius: 50%;
+		transition: 1s all;
+	}
+	.fa-linkedin-in:hover {
+		color: rgb(220,53,69);
+		background-color:transparent;
+		border: 2px rgb(220,53,69) solid;
+		border-radius: 50%;
+		box-shadow: 1px 1px 8px rgb(220,53,69);
+		transform: translateY(-10px) rotate(360deg);
+	}
+	.fa-github-alt {
+		color: white;
+		background-color: transparent;
+		border: 2px white solid;
+		border-radius: 50%;
+		transition: 1s all;
+	}
+	.fa-github-alt:hover {
+		color: rgb(220,53,69);
+		background-color:transparent;
+		border: 2px rgb(220,53,69) solid;
+		border-radius: 50%;
+		box-shadow: 1px 1px 8px rgb(220,53,69);
+		transform: translateY(-10px) rotate(360deg);
+	}
